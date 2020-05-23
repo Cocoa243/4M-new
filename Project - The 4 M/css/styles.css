@@ -1,0 +1,128 @@
+body {
+  background-color: white;
+  font-family: "Lucida Sans",sans-serif;
+  color: DimGray;
+
+}
+#myHeader {
+    color:#474747;
+  text-align: center;
+  
+}
+
+}
+.topnav {
+  color:#474747;
+  background: #FFE9E5;
+  text-align: center;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color:#474747;
+  background: #FFE9E5;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #474747;;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  background-color:lightgrey;
+}
+/* Style the 3 boxes section in the main page */
+div.gallery {
+border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+.responsive {
+  width: 49.99999%;
+  margin: 6px 0;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.responsive {
+  width: 100%;
+}
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+}
+
+.flex-container-two > div {
+background-color: White;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+.secondheader {
+color: BlanchedAlmond;
+border: 2px solid BlanchedAlmond;
+}
+.thirddheader {
+color:BlanchedAlmond;
+
+}
+.paragraph {
+color: DimGray;
+}
+
+aside {
+ background-color: BlanchedAlmond;
+ color: DimGray;
+}
+}
+/* Style the footer */
+.footer {
+  background-color: DimGray;
+  color: BlanchedAlmond;
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top:100px;  
+  }
+}
+  #img {
+-webkit-filter: blur(5px); 
+filter:blur(5px);
+  }
+  }
